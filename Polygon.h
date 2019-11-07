@@ -4,7 +4,7 @@
 
 #ifndef INHERTANCE2_POLYGON_H
 #define INHERTANCE2_POLYGON_H
-
+using namespace std;
 
 class Polygon {
 public:
@@ -12,6 +12,7 @@ public:
     virtual int area ();
 protected:
     int width, height;
+
 };
 
 
